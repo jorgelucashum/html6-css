@@ -1,0 +1,52 @@
+    <!--Cópia da página 'tipos-de-css', mas usando classes.-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Classes e ids</title>
+
+        <!--Seletores: São usados para formatações de tags gerais e padronizadas, para criar um seletor: nomeDatag{ } Exemplo: p{ }, h2{ }, etc.-->
+        <!--Classes: São usadas para formatar várias tags especificas ou que foge de um padrão: .nomeDaClasse { } para criar uma classe. -->
+        <!--IDs: É usado para formatar uma única tag:  #nomeDoId { } para criar um id. -->
+        <style type="text/css">
+           p{ 
+                color: purple;
+            } 
+
+            h2{
+                color: rgb(109, 109, 0);
+            }
+
+            .azul { 
+                color: blue;
+            }
+
+            #principal{
+                background: rgb(218, 218, 218);
+            }
+        </style>
+
+    </head>
+
+    <body id="principal"> <!--É recomendado usar uma id criada apenas uma vez para colocar atributos para estruturar algo em um site(um cabeçalho por exemplo).-->
+
+        <h1 style="color:red ">Inline Style CSS (cascading style sheets)</h1>
+        <p style=" color:red;">
+            Integer ultrices, magna sed rhoncus consectetur, arcu ligula consectetur diam, ut sollicitudin nisi nulla vitae dolor. Fusce condimentum, augue quis elementum dapibus, nisl tellus mattis nulla, at fringilla lectus velit sed libero. Donec vehicula arcu eleifend, ultrices nunc ac, sodales libero. Fusce sed sodales nibh. Nulla volutpat eleifend orci condimentum hendrerit. Sed ultrices consequat mi eget volutpat. Mauris accumsan commodo blandit. Cras urna elit, volutpat eget tellus non, mollis ornare leo. Nam vitae metus a dui porttitor scelerisque eget et felis.
+        </p>
+
+        <p style=" color:rgb(0, 68, 3);"> 
+            Integer ultrices, magna sed rhoncus consectetur, arcu ligula consectetur diam, ut sollicitudin nisi nulla vitae dolor. Fusce condimentum, augue quis elementum dapibus, nisl tellus mattis nulla, at fringilla lectus velit sed libero. Donec vehicula arcu eleifend, ultrices nunc ac, sodales libero. Fusce sed sodales nibh. Nulla volutpat eleifend orci condimentum hendrerit. Sed ultrices consequat mi eget volutpat. Mauris accumsan commodo blandit. Cras urna elit, volutpat eget tellus non, mollis ornare leo. Nam vitae metus a dui porttitor scelerisque eget et felis.
+        </p>
+        
+        <h2>Internal Style Sheet CSS (cascading style sheets)</h2>
+        <p class="azul"> <!--Paragráfo usando uma classe '.azul' para receber seus atributos.-->
+            Integer ultrices, magna sed rhoncus consectetur, arcu ligula consectetur diam, ut sollicitudin nisi nulla vitae dolor. Fusce condimentum, augue quis elementum dapibus, nisl tellus mattis nulla, at fringilla lectus velit sed libero. Donec vehicula arcu eleifend, ultrices nunc ac, sodales libero. Fusce sed sodales nibh. Nulla volutpat eleifend orci condimentum hendrerit. Sed ultrices consequat mi eget volutpat. Mauris accumsan commodo blandit. Cras urna elit, volutpat eget tellus non, mollis ornare leo. Nam vitae metus a dui porttitor scelerisque eget et felis.
+        </p>
+
+    </body>
+
+</html>

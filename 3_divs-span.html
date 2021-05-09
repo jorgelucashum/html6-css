@@ -1,0 +1,77 @@
+    <!--Cópia da página 'tipos-de-css', mas usando divs e span.-->
+
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>divs e span</title>
+    
+            <style type="text/css">
+
+            #topo{
+                background: blue;
+            }
+
+            #conteudo{
+                background: red;
+            }
+
+            #rodape{
+                background: green;
+            }
+
+            .produto{
+                background: gray;
+                margin: 10px;
+            }
+            .azul{
+                color: blue;
+            }
+
+            </style>
+    
+        </head>
+    
+        <body> 
+
+            <!--<div> - division, tag do tipo block (ocupa todo o bloco)usada para seperar/dividir os códigos, assim organizando a estrutura do site. 
+                Útil para criar container gerenéricos-->
+            <div id="topo">
+                <img src="images/amazon-logo.png" width="200">
+                <ul>
+                    <li>Home</li>
+                    <li>Produtos</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
+
+            <div id="conteudo">
+                <div class="produto">
+                    Produto 1
+                </div>
+
+                <div class="produto">
+                    Produto 2
+                </div>
+
+                <div class="produto">
+                    Produto 3
+                </div>
+            </div>
+    
+            <!--<span> - Funciona como uma <div> mas sendo do tipo inline(ocupa somente o conteúdo dentro dele).
+                Recomendado para formatar somente o texto dentro de uma tag.-->
+                
+            <span>Jamilton</span>
+            <span>Damasceno</span>
+
+            <div id="rodape">
+                Todos os <span class="azul">direitos</span> reservados.  <!--Utilizando <span> para formatar um texto em especifico.-->
+            </div>
+
+
+        </body>
+    
+    </html>
