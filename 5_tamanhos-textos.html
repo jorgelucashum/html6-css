@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tamanho de textos</title>
+
+        <style type="text/css">
+
+            div{
+                font-size: 30px;
+            }
+
+            .texto{
+                /* tipos de medidas mais usadas:
+                px - tamanho fixo
+                % - tamanho relativo ao browser
+                em - tamanho relativo ao container pai
+                */
+                font-size: 1em;
+            }
+            .texto2{
+                font-size: 2em; /*2x o tamanho*/
+            }
+            .texto3{
+                font: bold 40px "Lucida Sans Unicode", sans-serif;
+            }
+            .negrito{
+                /* peso do texto: normal e bold (negrito), ou definir pela quantidade de 100 a 900. */
+                font-weight: bold;
+            }
+            .italico{
+                /* itálico */
+                font-style: italic;
+            }
+            .formatacao{
+                /* text-decoration: underline; */
+                /* text-decoration: overline; */
+                /* text-decoration: line-through; */
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div>
+            <p class="texto">texto em tamanho '1em' (normal)</p>
+            <p class="texto2">texto em tamanho '2em' (2x)</p> <!--texto recebendo 2x o tamanho do 'pai', nesse casa o seletor: div-->
+            <p class="negrito">Negrito</p> 
+            <p class="italico">Itálico 4</p> 
+            <p class="texto3">Texto com fonte aplicada</p>
+        </div>
+
+    </body>
+
+</html>
