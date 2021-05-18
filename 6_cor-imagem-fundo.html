@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cor e imagem de fundo</title>
+
+    <style type="text/css">
+        /* Aplicando cores de fundo
+        .fundo {
+            background: rgb(172, 172, 172); 
+        } */
+        
+        body {
+            background-image: url('images/bob.jfif'); /*url('caminho-ou-link/da/imagem')*/
+            background-repeat: no-repeat; 
+            background-attachment: fixed; /* Deixa a imagem fixa independente de onde role a barra do mouse. */
+            background-position: center top;
+        }
+        
+        .fundo {
+            /*Colocando todos os atributos somente no 'background' (Colocar em ordem): */
+            background: blue url('images/bob.jfif') no-repeat fixed top right;
+        }
+    </style>
+
+</head>
+
+<body class="fundo">
+    <h1>Conteúdo de título</h1>
+    <p>
+        Akopsd oskoje opaslka opasjkd aspodjkaspodjkpaos e op asjdpos, pasokdj. Akopsd <br>
+        oskoje opaslka opasjkd aspodjkaspodjkpaos e opasjdpos, pasokdj. Akopsd oskoje opaslka opasjkd aspodjkaspodjkpaos e opasjdpos, pasokdj.
+        
+    </p>
+</body>
+
+</html>
